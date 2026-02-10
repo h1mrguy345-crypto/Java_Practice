@@ -13,7 +13,7 @@ public class SumOfTwoNumbers {
         int value2 = input2.nextInt();
         System.out.println("your input was : " + value2);
 
-        SumOfValues = value1 + value2;
+        System.out.println(value1 + " + " + value2 + " = " + (value1 + value2));
     }
 
 }
