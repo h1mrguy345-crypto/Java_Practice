@@ -14,6 +14,8 @@ public class SumOfTwoNumbers {
                 System.out.println("type in the second number: ");
                 int value2 = input2.nextInt();
                 System.out.println("your second input was: " + value2);
+                System.out.println(value1 + " + " + value2 + " = " + (value1 + value2));
+                break;
             } else {
                 System.out.println("this is not a number");
             }
