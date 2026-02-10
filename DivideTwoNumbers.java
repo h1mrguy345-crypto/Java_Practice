@@ -4,7 +4,6 @@ public class DivideTwoNumbers {
     static void main() {
        while (true) {
         Scanner input1 = new Scanner(System.in);
-
         System.out.println("let's add two numbers together");
         System.out.println("type in the first number: ");
         if (input1.hasNextDouble()) {
