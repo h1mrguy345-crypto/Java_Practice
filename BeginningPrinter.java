@@ -5,8 +5,8 @@ public class BeginningPrinter {
     static void main(String[] args){
         Scanner name = new Scanner(System.in);
         System.out.println("what is your name?");
-
-        System.out.println("Hello" + name);
+        String username = name.nextLine();
+        System.out.println("Hello " + username);
 
     }
 
