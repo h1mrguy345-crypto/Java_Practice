@@ -10,6 +10,7 @@ public class SumOfTwoNumbers {
             if (input1.hasNextInt()){
                 int value1 = input1.nextInt();
                 System.out.println("your input was : " + value1);
+                break;
             } else {
                 System.out.println("this is not a number");
             }
