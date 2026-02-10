@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class SumOfTwoNumbers {
     static void main() {
+        while (true){
         Scanner input1 = new Scanner(System.in);
             System.out.println("let's add two numbers together");
-            while (true){
             System.out.println("type in the first number: ");
             if (input1.hasNextInt()){
                 int value1 = input1.nextInt();
