@@ -13,12 +13,14 @@ public class DivideTwoNumbers {
             while (true){
                 Scanner input2 = new Scanner(System.in);
                 System.out.println("type in the second number: ");
-                
                 if (input2.hasNextDouble()){
                     double value2 = input2.nextDouble();
                     System.out.println("your second input was: " + value2);
+                    if (value2 == 0){
+                        System.out.println("you cannot divide by 0");
+                    } else {
                     System.out.println(value1 + " / " + value2 + " = " + (value1 / value2));
-                    break;}
+                    break;} }
                 else {
                     System.out.println("this is not a number");
                 }}
